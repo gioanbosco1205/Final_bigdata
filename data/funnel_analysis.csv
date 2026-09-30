@@ -1,0 +1,4 @@
+device_category,step_1_view_item_users,step_2_add_to_cart_users,step_3_begin_checkout_users,step_4_purchase_users,overall_conversion_rate_pct,step1_to_step2_cr_pct,step2_to_step3_cr_pct,step3_to_step4_cr_pct,cart_abandonment_rate_pct
+desktop,38000,10829,5847,3800,10.0,28.5,53.99,64.99,64.91
+mobile,31159,5452,1962,824,2.64,17.5,35.99,42.0,84.89
+tablet,3040,532,191,80,2.63,17.5,35.9,41.88,84.96
