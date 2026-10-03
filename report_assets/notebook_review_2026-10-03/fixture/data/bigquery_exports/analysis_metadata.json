@@ -1,0 +1,66 @@
+{
+  "rfm_job_id": "SYNTHETIC-FIXTURE-NOT-BIGQUERY-3",
+  "market_basket_job_id": "SYNTHETIC-FIXTURE-NOT-BIGQUERY-4",
+  "feature_columns": [
+    "recency_days",
+    "frequency_sessions",
+    "monetary_usd",
+    "view_item_count",
+    "add_to_cart_count",
+    "checkout_count",
+    "cart_to_view_ratio",
+    "total_engagement_time_sec",
+    "total_pageviews"
+  ],
+  "n_training_users": 6000,
+  "n_clusters": 4,
+  "k_selection": "K=4 chosen for four descriptive profiles; not asserted optimal",
+  "best_k_by_estimated_silhouette": 4,
+  "recency_definition": "days since last observed event at 2021-01-31",
+  "missing_feature_values_filled_zero": {
+    "recency_days": 0,
+    "frequency_sessions": 0,
+    "monetary_usd": 0,
+    "view_item_count": 0,
+    "add_to_cart_count": 0,
+    "checkout_count": 0,
+    "cart_to_view_ratio": 0,
+    "total_engagement_time_sec": 0,
+    "total_pageviews": 0
+  },
+  "persona_interpretation": "relative descriptive labels, not validated loyalty/churn classes",
+  "association_algorithm": "Apriori restricted to two-item sets; both rule directions",
+  "association_population": "orders with at least two distinct valid product names",
+  "transaction_identity": "JSON of user_pseudo_id and transaction_id; event fallback when absent",
+  "python_version": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "library_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit_learn": "1.9.1"
+  },
+  "random_state": 42,
+  "silhouette_estimate": 0.7256605097871677,
+  "silhouette_max_users": 2000,
+  "clipping_caps": {
+    "recency_days": 207.0,
+    "frequency_sessions": 33.5,
+    "monetary_usd": 2700.0,
+    "view_item_count": 105.5,
+    "add_to_cart_count": 35.0,
+    "checkout_count": 15.0,
+    "total_engagement_time_sec": 6305.0,
+    "total_pageviews": 227.5
+  },
+  "sparse_features_preserved": [],
+  "pca_explained_variance_ratio": [
+    0.8034291704768975,
+    0.13844268752128666,
+    0.037686421717067445
+  ],
+  "basket_orders": 600,
+  "association_thresholds": {
+    "support": 0.04,
+    "confidence": 0.25,
+    "lift": 1.0
+  }
+}

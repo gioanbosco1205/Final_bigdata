@@ -1,0 +1,28 @@
+{
+  "source": "bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*",
+  "date_range": [
+    "20201101",
+    "20210131"
+  ],
+  "execution_project": "test-fixture-project",
+  "job_id": "SYNTHETIC-FIXTURE-NOT-BIGQUERY-4",
+  "location": "US",
+  "created_at_utc": "2026-10-03T12:08:16.044036+00:00",
+  "query_sha256": "463ebbb8981c75db56533f2471fd02154d3e4eeff17d5bf89400586d46347a6a",
+  "rows": 1200,
+  "columns": [
+    "transaction_id",
+    "item_name",
+    "event_timestamp",
+    "user_pseudo_id",
+    "item_id",
+    "price_in_usd"
+  ],
+  "total_bytes_processed": 0,
+  "cache_hit": false,
+  "file_sha256": {
+    ".csv": "96f0e2cdcfc86bc58e3015e5a2639786b658b24ce9823a9f3d9b7a6858a9fe3a",
+    ".parquet": "f999ddb75cb9fd1ee01520cf39700f201ef165f7007946917d67d33a184607e5",
+    ".sql": "b0c86c6e13d815d7e8b6b235a9fa3a6f460e6980fc42563936f3c9ac53ac3a00"
+  }
+}

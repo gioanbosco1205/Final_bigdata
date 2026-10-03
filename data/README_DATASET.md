@@ -1,7 +1,11 @@
 # 📦 THÔNG TIN BỘ DỮ LIỆU ĐỒ ÁN (DATASET INFORMATION)
 
 **Đề tài:** Phân tích hành vi Khách hàng trên Dữ liệu Thương mại Điện tử quy mô lớn bằng Google BigQuery SQL & Python  
-**Loại dữ liệu:** Clickstream E-commerce Event Data (Google Analytics 4 - GA4)
+**Loại dữ liệu nguồn nghiên cứu:** Clickstream E-commerce Event Data (Google Analytics 4 - GA4)
+
+**Kết quả kiểm tra ngày 03/10/2026:** cả bốn CSV trực tiếp trong thư mục này trùng khớp bộ sinh dữ liệu tổng hợp `_generate_calibrated_sample` trong `src/bq_client.py`, sau khi đối chiếu toàn bộ giá trị với sai số số học 1e-10. Đây là dữ liệu mẫu để kiểm thử, không phải kết quả BigQuery đã xác minh. Có 1.069/4.500 user có Recency vượt khoảng 0–91 ngày của nghiên cứu.
+
+Notebook chính chỉ dùng dữ liệu từ truy vấn BigQuery thành công và lưu vào `data/bigquery_exports/` kèm SQL, job ID và SHA-256. Xem [báo cáo kiểm tra notebook](../NOTEBOOK_REVIEW_2026-10-03.md) và [bằng chứng đối chiếu](../report_assets/notebook_review_2026-10-03/legacy_data_provenance.json).
 
 ---
 
@@ -16,7 +20,7 @@
 ---
 
 ### 📂 2. CÁC TẬP DỮ LIỆU NỘP BÀI (DATASET FILES NỘP KÈM)
-Để thuận tiện cho Giảng viên kiểm tra, chấm bài và chạy thử nghiệm Offline/Local, toàn bộ dữ liệu đã được trích xuất bằng BigQuery SQL và lưu trữ dưới dạng chuẩn **CSV** và **Parquet** trong thư mục `data/`:
+Các file cũ dưới đây dùng để chạy thử Offline/Local. Không dùng chúng để báo cáo số liệu thực nghiệm GA4. Các file này có schema khác kết quả truy vấn của notebook hiện tại:
 
 | Tên File | Định dạng | Số dòng | Số cột | Mô tả nội dung dữ liệu |
 | :--- | :---: | :---: | :---: | :--- |

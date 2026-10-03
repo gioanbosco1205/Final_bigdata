@@ -1,0 +1,100 @@
+{
+  "mode": "fixture",
+  "source_sha256": "880106a0cfb14821edb1e51335cae6f498e4c1179426bdcb798599f0e2e04d34",
+  "started_at_utc": "2026-10-03T12:08:10.333151+00:00",
+  "synthetic_data": true,
+  "finished_at_utc": "2026-10-03T12:08:16.922416+00:00",
+  "python_executable": "C:\\Users\\ADMIN\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "executed_notebook": "D:\\big data\\CODE\\report_assets\\notebook_review_2026-10-03\\fixture\\DoAn-BigData-GA4-SourceCode-Final_fixture_executed.ipynb",
+  "total_blocks": 12,
+  "successful_blocks": 12,
+  "failed_blocks": 0,
+  "blocks": [
+    {
+      "block": 0,
+      "source_cell_index": 2,
+      "execution_count": 2,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 1,
+      "source_cell_index": 4,
+      "execution_count": 3,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 2,
+      "source_cell_index": 6,
+      "execution_count": 4,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 3,
+      "source_cell_index": 8,
+      "execution_count": 5,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 4,
+      "source_cell_index": 10,
+      "execution_count": 6,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 5,
+      "source_cell_index": 12,
+      "execution_count": 7,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 6,
+      "source_cell_index": 14,
+      "execution_count": 8,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 7,
+      "source_cell_index": 16,
+      "execution_count": 9,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 8,
+      "source_cell_index": 18,
+      "execution_count": 10,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 9,
+      "source_cell_index": 20,
+      "execution_count": 11,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 10,
+      "source_cell_index": 22,
+      "execution_count": 12,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 11,
+      "source_cell_index": 24,
+      "execution_count": 13,
+      "status": "ok",
+      "errors": []
+    }
+  ],
+  "fatal_error": null,
+  "limitation": "Fixtures validate Python execution/export; SQL is not run by BigQuery."
+}

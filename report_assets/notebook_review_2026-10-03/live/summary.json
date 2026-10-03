@@ -1,0 +1,155 @@
+{
+  "mode": "live",
+  "source_sha256": "880106a0cfb14821edb1e51335cae6f498e4c1179426bdcb798599f0e2e04d34",
+  "started_at_utc": "2026-10-03T12:08:11.373315+00:00",
+  "synthetic_data": false,
+  "finished_at_utc": "2026-10-03T12:08:28.106321+00:00",
+  "python_executable": "C:\\Users\\ADMIN\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "executed_notebook": "D:\\big data\\CODE\\report_assets\\notebook_review_2026-10-03\\live\\DoAn-BigData-GA4-SourceCode-Final_live_executed.ipynb",
+  "total_blocks": 12,
+  "successful_blocks": 1,
+  "failed_blocks": 11,
+  "blocks": [
+    {
+      "block": 0,
+      "source_cell_index": 2,
+      "execution_count": 1,
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "block": 1,
+      "source_cell_index": 4,
+      "execution_count": 2,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Không thể xác thực Google Cloud. Trên Colab hãy đăng nhập; trên máy cá nhân hãy cấu hình Application Default Credentials."
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "source_cell_index": 6,
+      "execution_count": 3,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa kết nối BigQuery. Chạy lại BLOCK 1."
+        }
+      ]
+    },
+    {
+      "block": 3,
+      "source_cell_index": 8,
+      "execution_count": 4,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa kết nối BigQuery. Chạy lại BLOCK 1."
+        }
+      ]
+    },
+    {
+      "block": 4,
+      "source_cell_index": 10,
+      "execution_count": 5,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa kết nối BigQuery. Chạy lại BLOCK 1."
+        }
+      ]
+    },
+    {
+      "block": 5,
+      "source_cell_index": 12,
+      "execution_count": 6,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa có kết quả BLOCK 4. Chạy block đó thành công trước khi tiếp tục."
+        }
+      ]
+    },
+    {
+      "block": 6,
+      "source_cell_index": 14,
+      "execution_count": 7,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa có kết quả BLOCK 5. Chạy block đó thành công trước khi tiếp tục."
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "source_cell_index": 16,
+      "execution_count": 8,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa có kết quả BLOCK 6. Chạy block đó thành công trước khi tiếp tục."
+        }
+      ]
+    },
+    {
+      "block": 8,
+      "source_cell_index": 18,
+      "execution_count": 9,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa có kết quả BLOCK 7. Chạy block đó thành công trước khi tiếp tục."
+        }
+      ]
+    },
+    {
+      "block": 9,
+      "source_cell_index": 20,
+      "execution_count": 10,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa kết nối BigQuery. Chạy lại BLOCK 1."
+        }
+      ]
+    },
+    {
+      "block": 10,
+      "source_cell_index": 22,
+      "execution_count": 11,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Thiếu kết quả truy vấn hiện tại để diễn giải. Chạy lại BLOCK 2–9."
+        }
+      ]
+    },
+    {
+      "block": 11,
+      "source_cell_index": 24,
+      "execution_count": 12,
+      "status": "error",
+      "errors": [
+        {
+          "name": "RuntimeError",
+          "message": "Chưa có kết quả BigQuery cho: ['eda_overview', 'funnel_analysis', 'market_basket', 'rfm_features']. Chạy lại các block tương ứng."
+        }
+      ]
+    }
+  ],
+  "fatal_error": null,
+  "limitation": "Authentication/query errors prevent live result validation."
+}

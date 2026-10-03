@@ -1,5 +1,7 @@
 # 📊 Phân Tích Hành Vi Khách Hàng Trên Dữ Liệu Thương Mại Điện Tử Quy Mô Lớn (Big Data GA4 E-Commerce Analytics)
 
+> **Kiểm tra notebook ngày 03/10/2026:** xem [phân tích từng block và bằng chứng chạy](NOTEBOOK_REVIEW_2026-10-03.md). Bốn CSV cũ trong `data/` khớp bộ sinh dữ liệu tổng hợp; các số liệu minh họa cũ chưa được xác minh bằng BigQuery. Notebook chính chỉ dùng query job thành công. Kiểm thử kỹ thuật đã chạy 12/12 block với fixture và 25/25 tests; chạy dữ liệu thật cần Google Cloud credentials.
+
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Google BigQuery](https://img.shields.io/badge/Google%20Cloud-BigQuery-669DF6.svg)](https://cloud.google.com/bigquery)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.0%2B-orange.svg)](https://scikit-learn.org/)

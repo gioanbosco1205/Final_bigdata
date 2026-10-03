@@ -1,0 +1,60 @@
+test_bad_project_stops_before_auth_and_clears_old_frames (tests.test_master_notebook.TestMasterNotebook.test_bad_project_stops_before_auth_and_clears_old_frames) ... ok
+test_basket_rules_keep_full_precision_and_directions (tests.test_master_notebook.TestMasterNotebook.test_basket_rules_keep_full_precision_and_directions) ... Đang chạy SQL [market_basket] trên BigQuery, project=test-project...
+✓ BigQuery thành công: 402 dòng; job_id=test-fixture-job
+✓ Đã lưu CSV, Parquet, SQL và metadata vào C:\Users\ADMIN\AppData\Local\Temp\tmpe3x6r_dq
+✓ 201 đơn đa sản phẩm; 2 sản phẩm đạt support >= 4%.
+Luật thể hiện mua cùng đơn, không xác định thứ tự mua. Support tính trên các đơn đa sản phẩm.
+ok
+test_basket_sql_separates_same_transaction_id_for_different_users (tests.test_master_notebook.TestMasterNotebook.test_basket_sql_separates_same_transaction_id_for_different_users) ... ok
+test_builder_generates_the_same_cells (tests.test_master_notebook.TestMasterNotebook.test_builder_generates_the_same_cells) ... ok
+test_empty_rules_do_not_crash_or_invent_recommendations (tests.test_master_notebook.TestMasterNotebook.test_empty_rules_do_not_crash_or_invent_recommendations) ... Đang chạy SQL [market_basket] trên BigQuery, project=test-project...
+✓ BigQuery thành công: 60 dòng; job_id=test-fixture-job
+✓ Đã lưu CSV, Parquet, SQL và metadata vào C:\Users\ADMIN\AppData\Local\Temp\tmpt9jyydr0
+✓ 30 đơn đa sản phẩm; 0 sản phẩm đạt support >= 4%.
+Không có luật đáp ứng các ngưỡng trên dữ liệu thật. Không tạo luật minh họa.
+Luật thể hiện mua cùng đơn, không xác định thứ tự mua. Support tính trên các đơn đa sản phẩm.
+ok
+test_entire_analysis_pipeline_with_explicit_test_fixtures (tests.test_master_notebook.TestMasterNotebook.test_entire_analysis_pipeline_with_explicit_test_fixtures) ... ok
+test_export_rejects_modified_query_data (tests.test_master_notebook.TestMasterNotebook.test_export_rejects_modified_query_data) ... Đang chạy SQL [eda_overview] trên BigQuery, project=test-project...
+✓ BigQuery thành công: 1 dòng; job_id=test-fixture-job
+✓ Đã lưu CSV, Parquet, SQL và metadata vào C:\Users\ADMIN\AppData\Local\Temp\tmpypgm6fbu
+Đang chạy SQL [funnel_analysis] trên BigQuery, project=test-project...
+✓ BigQuery thành công: 1 dòng; job_id=test-fixture-job
+✓ Đã lưu CSV, Parquet, SQL và metadata vào C:\Users\ADMIN\AppData\Local\Temp\tmpypgm6fbu
+Đang chạy SQL [rfm_features] trên BigQuery, project=test-project...
+✓ BigQuery thành công: 1 dòng; job_id=test-fixture-job
+✓ Đã lưu CSV, Parquet, SQL và metadata vào C:\Users\ADMIN\AppData\Local\Temp\tmpypgm6fbu
+Đang chạy SQL [market_basket] trên BigQuery, project=test-project...
+✓ BigQuery thành công: 1 dòng; job_id=test-fixture-job
+✓ Đã lưu CSV, Parquet, SQL và metadata vào C:\Users\ADMIN\AppData\Local\Temp\tmpypgm6fbu
+ok
+test_exports_preserve_query_results_and_job_evidence (tests.test_master_notebook.TestMasterNotebook.test_exports_preserve_query_results_and_job_evidence) ... Đang chạy SQL [rfm_features] trên BigQuery, project=test-project...
+✓ BigQuery thành công: 2 dòng; job_id=test-fixture-job
+✓ Đã lưu CSV, Parquet, SQL và metadata vào C:\Users\ADMIN\AppData\Local\Temp\tmpvsphpikp
+ok
+test_failed_rfm_refresh_invalidates_dependent_models (tests.test_master_notebook.TestMasterNotebook.test_failed_rfm_refresh_invalidates_dependent_models) ... Đang chạy SQL [rfm_features] trên BigQuery, project=test-project...
+ok
+test_funnel_sql_groups_source_device_and_counts_users_once (tests.test_master_notebook.TestMasterNotebook.test_funnel_sql_groups_source_device_and_counts_users_once) ... ok
+test_funnel_sql_respects_time_order_and_device (tests.test_master_notebook.TestMasterNotebook.test_funnel_sql_respects_time_order_and_device) ... ok
+test_insights_reject_stale_query_results (tests.test_master_notebook.TestMasterNotebook.test_insights_reject_stale_query_results) ... ok
+test_missing_client_and_empty_results_raise (tests.test_master_notebook.TestMasterNotebook.test_missing_client_and_empty_results_raise) ... Đang chạy SQL [eda_overview] trên BigQuery, project=test-project...
+ok
+test_negative_features_are_rejected_without_modifying_source (tests.test_master_notebook.TestMasterNotebook.test_negative_features_are_rejected_without_modifying_source) ... ok
+test_persona_requires_four_clusters_and_handles_no_revenue (tests.test_master_notebook.TestMasterNotebook.test_persona_requires_four_clusters_and_handles_no_revenue) ... ok
+test_preprocessing_accepts_bigquery_nullable_types_and_decimal_cap (tests.test_master_notebook.TestMasterNotebook.test_preprocessing_accepts_bigquery_nullable_types_and_decimal_cap) ... ok
+test_preprocessing_rejects_infinite_features (tests.test_master_notebook.TestMasterNotebook.test_preprocessing_rejects_infinite_features) ... ok
+test_query_failure_never_reads_existing_csv (tests.test_master_notebook.TestMasterNotebook.test_query_failure_never_reads_existing_csv) ... Đang chạy SQL [eda_overview] trên BigQuery, project=test-project...
+ok
+test_report_export_rejects_stale_models (tests.test_master_notebook.TestMasterNotebook.test_report_export_rejects_stale_models) ... ok
+test_save_failure_does_not_record_success (tests.test_master_notebook.TestMasterNotebook.test_save_failure_does_not_record_success) ... Đang chạy SQL [rfm_features] trên BigQuery, project=test-project...
+ok
+test_schema_python_and_bigquery_sql (tests.test_master_notebook.TestMasterNotebook.test_schema_python_and_bigquery_sql) ... ok
+test_silhouette_preserves_a_rare_cluster_with_bounded_memory (tests.test_master_notebook.TestMasterNotebook.test_silhouette_preserves_a_rare_cluster_with_bounded_memory) ... ok
+test_sparse_purchase_feature_is_not_clipped_to_zero (tests.test_master_notebook.TestMasterNotebook.test_sparse_purchase_feature_is_not_clipped_to_zero) ... ok
+test_valid_empty_market_basket_is_exported_without_rules (tests.test_master_notebook.TestMasterNotebook.test_valid_empty_market_basket_is_exported_without_rules) ... ok
+test_zero_denominator_percentage_is_undefined (tests.test_master_notebook.TestMasterNotebook.test_zero_denominator_percentage_is_undefined) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.785s
+
+OK

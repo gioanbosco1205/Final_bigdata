@@ -1,0 +1,6 @@
+aggregation_level,traffic_medium,device_category,country,total_users,total_sessions,total_pageviews,total_purchases,total_revenue_usd
+overall,,,,6000,45000,304500,6000,1770000.0
+channel,organic,,,3500,22500,152250,3000,885000.0
+channel,direct,,,2500,22500,152250,3000,885000.0
+device,,desktop,,4000,22500,152250,3000,885000.0
+device,,mobile,,3000,22500,152250,3000,885000.0

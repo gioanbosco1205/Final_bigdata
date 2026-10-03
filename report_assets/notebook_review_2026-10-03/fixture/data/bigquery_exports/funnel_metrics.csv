@@ -1,0 +1,5 @@
+device_category,step1_view_item,step2_add_to_cart,step3_begin_checkout,step4_purchase,cart_abandonment_rate_pct,overall_conversion_rate_pct,step1_to_step2_cr_pct,step2_to_step3_cr_pct,step3_to_step4_cr_pct
+all,6000,4500,3200,1800,60.0,30.0,75.0,71.11111111111111,56.25
+desktop,4000,3000,2500,1500,50.0,37.5,75.0,83.33333333333333,60.0
+mobile,3000,1800,800,400,77.77777777777777,13.333333333333334,60.0,44.44444444444444,50.0
+tablet,0,0,0,0,,,,,

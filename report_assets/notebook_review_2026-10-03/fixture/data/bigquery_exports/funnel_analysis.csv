@@ -1,0 +1,5 @@
+device_category,step1_view_item,step2_add_to_cart,step3_begin_checkout,step4_purchase
+all,6000,4500,3200,1800
+desktop,4000,3000,2500,1500
+mobile,3000,1800,800,400
+tablet,0,0,0,0

@@ -1,0 +1,5 @@
+Sản Phẩm A (Đã Mua),Sản Phẩm B (Gợi Ý Mua Kèm),Support (%),Confidence (%),Lift (Độ Nâng)
+A,B,50.0,100.0,2.0
+B,A,50.0,100.0,2.0
+C,D,50.0,100.0,2.0
+D,C,50.0,100.0,2.0

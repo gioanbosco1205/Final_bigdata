@@ -1,0 +1,10 @@
+feature,missing_filled_zero,upper_cap,clipped_rows,scaled_mean,scaled_std
+recency_days,0,207.0,0,2.409924112119673e-16,1.0
+frequency_sessions,0,33.5,0,-3.1974423109204506e-17,1.0
+monetary_usd,0,2700.0,0,-2.5697962276656957e-16,1.0
+view_item_count,0,105.5,0,7.815970093361102e-17,1.0
+add_to_cart_count,0,35.0,0,-4.914587255674026e-17,1.0
+checkout_count,0,15.0,0,7.579122514774402e-17,0.9999999999999998
+cart_to_view_ratio,0,,0,1.3766765505351941e-17,1.0
+total_engagement_time_sec,0,6305.0,0,7.792285335502432e-16,1.0
+total_pageviews,0,227.5,0,-1.7645144604709154e-16,0.9999999999999999

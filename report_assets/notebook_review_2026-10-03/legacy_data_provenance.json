@@ -1,0 +1,76 @@
+{
+  "eda_overview": {
+    "rows": 7,
+    "columns": [
+      "traffic_medium",
+      "total_users",
+      "total_sessions",
+      "total_pageviews",
+      "total_transactions",
+      "total_revenue",
+      "conversion_rate"
+    ],
+    "file_sha256": "06ee07f34868f8b2d9186539b431811a8ecda8259c2234fe8c8dca7aa6f6f53e",
+    "matches_legacy_synthetic_generator": true,
+    "comparison_error": null,
+    "missing_cells": 0,
+    "duplicate_rows": 0
+  },
+  "funnel_analysis": {
+    "rows": 3,
+    "columns": [
+      "device_category",
+      "step_1_view_item_users",
+      "step_2_add_to_cart_users",
+      "step_3_begin_checkout_users",
+      "step_4_purchase_users",
+      "overall_conversion_rate_pct",
+      "step1_to_step2_cr_pct",
+      "step2_to_step3_cr_pct",
+      "step3_to_step4_cr_pct",
+      "cart_abandonment_rate_pct"
+    ],
+    "file_sha256": "524832ac478490d8455ebe454c3d091e15aeeaaf4fc14887ed11d3bbd2d00020",
+    "matches_legacy_synthetic_generator": true,
+    "comparison_error": null,
+    "missing_cells": 0,
+    "duplicate_rows": 0
+  },
+  "rfm_features": {
+    "rows": 4500,
+    "columns": [
+      "user_pseudo_id",
+      "recency_days",
+      "total_sessions",
+      "monetary_value",
+      "total_engagement_sec",
+      "total_pageviews",
+      "items_viewed_count",
+      "items_added_to_cart_count",
+      "cart_to_view_ratio",
+      "purchase_count",
+      "primary_device",
+      "primary_channel"
+    ],
+    "file_sha256": "c09cf85268ceb2fb725759d0f2cf6765d24bfb318fe221f4daed9002b5bdcb9e",
+    "matches_legacy_synthetic_generator": true,
+    "comparison_error": null,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "users_recency_outside_0_91": 1069
+  },
+  "market_basket": {
+    "rows": 1443,
+    "columns": [
+      "transaction_id",
+      "item_name",
+      "item_category",
+      "price"
+    ],
+    "file_sha256": "a7958d2b64f9e64edff99f7fe61e1dbf83d1aa920b973f3c9a664e60126a3309",
+    "matches_legacy_synthetic_generator": true,
+    "comparison_error": null,
+    "missing_cells": 0,
+    "duplicate_rows": 0
+  }
+}

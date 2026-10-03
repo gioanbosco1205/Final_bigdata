@@ -1,0 +1,33 @@
+{
+  "source": "bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*",
+  "date_range": [
+    "20201101",
+    "20210131"
+  ],
+  "execution_project": "test-fixture-project",
+  "job_id": "SYNTHETIC-FIXTURE-NOT-BIGQUERY-3",
+  "location": "US",
+  "created_at_utc": "2026-10-03T12:08:14.286587+00:00",
+  "query_sha256": "06e6771aba2e75697bfe743042250684894bf559a9de3a162b7b091f269a1b73",
+  "rows": 6000,
+  "columns": [
+    "user_pseudo_id",
+    "recency_days",
+    "frequency_sessions",
+    "monetary_usd",
+    "view_item_count",
+    "add_to_cart_count",
+    "checkout_count",
+    "purchase_count",
+    "cart_to_view_ratio",
+    "total_engagement_time_sec",
+    "total_pageviews"
+  ],
+  "total_bytes_processed": 0,
+  "cache_hit": false,
+  "file_sha256": {
+    ".csv": "23b58372bdfb3f166c9dba7d3a97b956210c71d22fbe318ffd55d8b368ece7e4",
+    ".parquet": "09bfd6df656d40eda9698a3ab02cf2e857eb132719d6a049e1eecbb47b437b18",
+    ".sql": "747358e9a9e02caafdbc4e44a2f73cde113b67ff3c3cbd3f8860e3051b0733f8"
+  }
+}

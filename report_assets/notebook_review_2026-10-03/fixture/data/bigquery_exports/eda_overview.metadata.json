@@ -1,0 +1,31 @@
+{
+  "source": "bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*",
+  "date_range": [
+    "20201101",
+    "20210131"
+  ],
+  "execution_project": "test-fixture-project",
+  "job_id": "SYNTHETIC-FIXTURE-NOT-BIGQUERY-1",
+  "location": "US",
+  "created_at_utc": "2026-10-03T12:08:13.737152+00:00",
+  "query_sha256": "726fe02f2a38c026a84610db28e1a2abc97c325d557499a96d6c7c33f44b4867",
+  "rows": 5,
+  "columns": [
+    "aggregation_level",
+    "traffic_medium",
+    "device_category",
+    "country",
+    "total_users",
+    "total_sessions",
+    "total_pageviews",
+    "total_purchases",
+    "total_revenue_usd"
+  ],
+  "total_bytes_processed": 0,
+  "cache_hit": false,
+  "file_sha256": {
+    ".csv": "af53871ac078b41bfcdac29bfe45ef977d2c632703254b12d3417fed81cf78fc",
+    ".parquet": "34eb5e002a10a7fd98ae06bbb9231f4cdcdfb0a1d1f3d5d95de6631bba770173",
+    ".sql": "3d2a483535e3ca5c1bb8588bce12a2e20747ed3a22c2e0cb052a13534b4bff9b"
+  }
+}

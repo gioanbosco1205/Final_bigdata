@@ -1,0 +1,8 @@
+# Notebook execution and regression checks (in addition to requirements.txt)
+ipython>=8.0
+ipykernel>=6.0
+nbclient>=0.10
+nbconvert>=7.0
+nbformat>=5.9
+duckdb>=1.0
+sqlglot>=25.0

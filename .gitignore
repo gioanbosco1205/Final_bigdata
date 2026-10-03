@@ -49,3 +49,9 @@ Thumbs.db
 
 # Temporary cache files
 data/cache/*.tmp
+
+# Local Jupyter execution state (includes temporary kernel connection keys)
+report_assets/**/runtime/
+report_assets/**/jupyter/
+report_assets/**/matplotlib/
+report_assets/**/ipython/
