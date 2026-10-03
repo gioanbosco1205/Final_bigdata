@@ -583,7 +583,9 @@ ORDER BY t.transaction_id;
 df_basket = query_or_load(sql_basket, "market_basket")
 
 # Xây dựng One-Hot Matrix
-basket_matrix = df_basket.groupby(['transaction_id', 'item_name'])['item_id'].count().unstack().fillna(0)
+tx_col = 'transaction_id' if 'transaction_id' in df_basket.columns else df_basket.columns[2]
+item_col = 'item_name' if 'item_name' in df_basket.columns else df_basket.columns[4]
+basket_matrix = df_basket.groupby([tx_col, item_col]).size().unstack().fillna(0)
 basket_one_hot = (basket_matrix > 0).astype(int)
 
 # Thuật toán Apriori tính toán Frequent Itemsets & Rules
