@@ -1,0 +1,336 @@
+{
+  "eda": [
+    {
+      "traffic_medium": "Organic Search",
+      "total_users": 9226,
+      "total_sessions": 10917,
+      "total_pageviews": 53241,
+      "total_transactions": 225,
+      "total_revenue": 11879.94,
+      "conversion_rate": 2.06
+    },
+    {
+      "traffic_medium": "Direct",
+      "total_users": 5243,
+      "total_sessions": 6922,
+      "total_pageviews": 38017,
+      "total_transactions": 195,
+      "total_revenue": 15678.71,
+      "conversion_rate": 2.82
+    },
+    {
+      "traffic_medium": "Referral",
+      "total_users": 2605,
+      "total_sessions": 3368,
+      "total_pageviews": 13208,
+      "total_transactions": 78,
+      "total_revenue": 5556.55,
+      "conversion_rate": 2.32
+    },
+    {
+      "traffic_medium": "Paid Search",
+      "total_users": 1681,
+      "total_sessions": 2086,
+      "total_pageviews": 8698,
+      "total_transactions": 59,
+      "total_revenue": 3066.51,
+      "conversion_rate": 2.83
+    },
+    {
+      "traffic_medium": "Display",
+      "total_users": 750,
+      "total_sessions": 927,
+      "total_pageviews": 4918,
+      "total_transactions": 19,
+      "total_revenue": 1343.52,
+      "conversion_rate": 2.05
+    },
+    {
+      "traffic_medium": "Affiliates",
+      "total_users": 549,
+      "total_sessions": 665,
+      "total_pageviews": 2398,
+      "total_transactions": 18,
+      "total_revenue": 963.47,
+      "conversion_rate": 2.71
+    },
+    {
+      "traffic_medium": "Email",
+      "total_users": 198,
+      "total_sessions": 237,
+      "total_pageviews": 1069,
+      "total_transactions": 4,
+      "total_revenue": 279.04,
+      "conversion_rate": 1.69
+    }
+  ],
+  "funnel": [
+    {
+      "device_category": "desktop",
+      "step_1_view_item_users": 38000,
+      "step_2_add_to_cart_users": 10829,
+      "step_3_begin_checkout_users": 5847,
+      "step_4_purchase_users": 3800,
+      "overall_conversion_rate_pct": 10.0,
+      "step1_to_step2_cr_pct": 28.5,
+      "step2_to_step3_cr_pct": 53.99,
+      "step3_to_step4_cr_pct": 64.99,
+      "cart_abandonment_rate_pct": 64.91
+    },
+    {
+      "device_category": "mobile",
+      "step_1_view_item_users": 31159,
+      "step_2_add_to_cart_users": 5452,
+      "step_3_begin_checkout_users": 1962,
+      "step_4_purchase_users": 824,
+      "overall_conversion_rate_pct": 2.64,
+      "step1_to_step2_cr_pct": 17.5,
+      "step2_to_step3_cr_pct": 35.99,
+      "step3_to_step4_cr_pct": 42.0,
+      "cart_abandonment_rate_pct": 84.89
+    },
+    {
+      "device_category": "tablet",
+      "step_1_view_item_users": 3040,
+      "step_2_add_to_cart_users": 532,
+      "step_3_begin_checkout_users": 191,
+      "step_4_purchase_users": 80,
+      "overall_conversion_rate_pct": 2.63,
+      "step1_to_step2_cr_pct": 17.5,
+      "step2_to_step3_cr_pct": 35.9,
+      "step3_to_step4_cr_pct": 41.88,
+      "cart_abandonment_rate_pct": 84.96
+    }
+  ],
+  "cluster_evaluation": {
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "inertias": [
+      17327.769851529483,
+      10818.508899662378,
+      8610.247885107834,
+      6729.280807516666,
+      6204.866337364624,
+      5806.977112746617,
+      5424.160520330686
+    ],
+    "silhouette_scores": [
+      0.5230469105615355,
+      0.47497727975717075,
+      0.4797245413896415,
+      0.46491956173256727,
+      0.3990079135243702,
+      0.38051719791176947,
+      0.32185442338016623
+    ],
+    "best_k_by_silhouette": 2
+  },
+  "cluster_summary": {
+    "n_clusters": 4,
+    "overall_silhouette_score": 0.4797,
+    "pca_2d_explained_variance_ratio": [
+      0.7071137300568759,
+      0.1159059125011702
+    ],
+    "pca_3d_explained_variance_ratio": [
+      0.7071137300568759,
+      0.1159059125011702,
+      0.08802395476600347
+    ],
+    "cluster_sizes": {
+      "1": 1593,
+      "2": 1329,
+      "0": 1204,
+      "3": 374
+    },
+    "cluster_percentages": {
+      "1": 35.4,
+      "2": 29.53,
+      "0": 26.76,
+      "3": 8.31
+    }
+  },
+  "personas": [
+    {
+      "Cluster ID": 0,
+      "Chân dung Khách hàng (Persona)": "Potential Loyalists",
+      "Số lượng Users": "1,204 (26.76%)",
+      "Recency TB (ngày)": 18.1,
+      "Sessions TB": 4.8,
+      "Doanh thu TB ($)": 105.14,
+      "Thời gian Tương tác TB (s)": 568.3,
+      "Số SP Xem TB": 21.6,
+      "Số SP Thêm Giỏ TB": 4.5,
+      "Tỷ lệ Giỏ/Xem": 0.234,
+      "Đơn hàng TB": 1.4,
+      "Hành vi Nổi bật": "Tương tác đều đặn, xem nhiều sản phẩm, chi tiêu ở mức khá"
+    },
+    {
+      "Cluster ID": 1,
+      "Chân dung Khách hàng (Persona)": "At-Risk / Inactive Customers",
+      "Số lượng Users": "1,593 (35.4%)",
+      "Recency TB (ngày)": 115.2,
+      "Sessions TB": 1.5,
+      "Doanh thu TB ($)": 1.62,
+      "Thời gian Tương tác TB (s)": 62.8,
+      "Số SP Xem TB": 2.5,
+      "Số SP Thêm Giỏ TB": 0.2,
+      "Tỷ lệ Giỏ/Xem": 0.107,
+      "Đơn hàng TB": 0.06,
+      "Hành vi Nổi bật": "Đã lâu không quay lại website, tần suất và giá trị rất thấp"
+    },
+    {
+      "Cluster ID": 2,
+      "Chân dung Khách hàng (Persona)": "Cart Abandoners / Window Shoppers",
+      "Số lượng Users": "1,329 (29.53%)",
+      "Recency TB (ngày)": 22.7,
+      "Sessions TB": 3.6,
+      "Doanh thu TB ($)": 0.03,
+      "Thời gian Tương tác TB (s)": 448.1,
+      "Số SP Xem TB": 18.6,
+      "Số SP Thêm Giỏ TB": 4.1,
+      "Tỷ lệ Giỏ/Xem": 0.251,
+      "Đơn hàng TB": 0.02,
+      "Hành vi Nổi bật": "Tỷ lệ thêm vào giỏ cao nhưng tỷ lệ hoàn tất đơn hàng rất thấp"
+    },
+    {
+      "Cluster ID": 3,
+      "Chân dung Khách hàng (Persona)": "Loyal Champions (VIPs)",
+      "Số lượng Users": "374 (8.31%)",
+      "Recency TB (ngày)": 7.7,
+      "Sessions TB": 14.9,
+      "Doanh thu TB ($)": 380.6,
+      "Thời gian Tương tác TB (s)": 1463.0,
+      "Số SP Xem TB": 36.8,
+      "Số SP Thêm Giỏ TB": 12.3,
+      "Tỷ lệ Giỏ/Xem": 0.385,
+      "Đơn hàng TB": 6.03,
+      "Hành vi Nổi bật": "Chi tiêu lớn nhất, tương tác lâu, mua sắm định kỳ thường xuyên"
+    }
+  ],
+  "basket_rules": [
+    {
+      "antecedents_str": "Google Leatherette Coaster Set",
+      "consequents_str": "Google Hard Cover Journal",
+      "antecedent_support": 0.2946,
+      "consequent_support": 0.3107,
+      "support": 0.2304,
+      "confidence": 0.7818,
+      "lift": 2.516
+    },
+    {
+      "antecedents_str": "Google Hard Cover Journal",
+      "consequents_str": "Google Leatherette Coaster Set",
+      "antecedent_support": 0.3107,
+      "consequent_support": 0.2946,
+      "support": 0.2304,
+      "confidence": 0.7414,
+      "lift": 2.516
+    },
+    {
+      "antecedents_str": "Google Unisex Eco Tee Black",
+      "consequents_str": "Google Twill Cap",
+      "antecedent_support": 0.5696,
+      "consequent_support": 0.5732,
+      "support": 0.4875,
+      "confidence": 0.8558,
+      "lift": 1.493
+    },
+    {
+      "antecedents_str": "Google Twill Cap",
+      "consequents_str": "Google Unisex Eco Tee Black",
+      "antecedent_support": 0.5732,
+      "consequent_support": 0.5696,
+      "support": 0.4875,
+      "confidence": 0.8505,
+      "lift": 1.493
+    },
+    {
+      "antecedents_str": "Google Thermal Bottle 20oz",
+      "consequents_str": "Google Twill Cap",
+      "antecedent_support": 0.35,
+      "consequent_support": 0.5732,
+      "support": 0.2696,
+      "confidence": 0.7704,
+      "lift": 1.344
+    },
+    {
+      "antecedents_str": "Google Twill Cap",
+      "consequents_str": "Google Thermal Bottle 20oz",
+      "antecedent_support": 0.5732,
+      "consequent_support": 0.35,
+      "support": 0.2696,
+      "confidence": 0.4704,
+      "lift": 1.344
+    },
+    {
+      "antecedents_str": "Google Thermal Bottle 20oz",
+      "consequents_str": "Google Unisex Eco Tee Black",
+      "antecedent_support": 0.35,
+      "consequent_support": 0.5696,
+      "support": 0.2625,
+      "confidence": 0.75,
+      "lift": 1.317
+    },
+    {
+      "antecedents_str": "Google Unisex Eco Tee Black",
+      "consequents_str": "Google Thermal Bottle 20oz",
+      "antecedent_support": 0.5696,
+      "consequent_support": 0.35,
+      "support": 0.2625,
+      "confidence": 0.4608,
+      "lift": 1.317
+    }
+  ],
+  "basket_recommendations": [
+    {
+      "Sản phẩm Đã mua (A)": "Google Leatherette Coaster Set",
+      "Sản phẩm Gợi ý Mua kèm (B)": "Google Hard Cover Journal",
+      "Độ phổ biến (Support)": "23.0%",
+      "Xác suất mua kèm (Confidence)": "78.2%",
+      "Hệ số Tương quan (Lift)": "2.516x",
+      "Ý nghĩa Kinh doanh": "Khách mua [Google Leatherette Coaster Set] có xác suất 78.2% sẽ mua kèm [Google Hard Cover Journal] (Cao gấp 2.516x so với mua ngẫu nhiên)."
+    },
+    {
+      "Sản phẩm Đã mua (A)": "Google Hard Cover Journal",
+      "Sản phẩm Gợi ý Mua kèm (B)": "Google Leatherette Coaster Set",
+      "Độ phổ biến (Support)": "23.0%",
+      "Xác suất mua kèm (Confidence)": "74.1%",
+      "Hệ số Tương quan (Lift)": "2.516x",
+      "Ý nghĩa Kinh doanh": "Khách mua [Google Hard Cover Journal] có xác suất 74.1% sẽ mua kèm [Google Leatherette Coaster Set] (Cao gấp 2.516x so với mua ngẫu nhiên)."
+    },
+    {
+      "Sản phẩm Đã mua (A)": "Google Unisex Eco Tee Black",
+      "Sản phẩm Gợi ý Mua kèm (B)": "Google Twill Cap",
+      "Độ phổ biến (Support)": "48.8%",
+      "Xác suất mua kèm (Confidence)": "85.6%",
+      "Hệ số Tương quan (Lift)": "1.493x",
+      "Ý nghĩa Kinh doanh": "Khách mua [Google Unisex Eco Tee Black] có xác suất 85.6% sẽ mua kèm [Google Twill Cap] (Cao gấp 1.493x so với mua ngẫu nhiên)."
+    },
+    {
+      "Sản phẩm Đã mua (A)": "Google Twill Cap",
+      "Sản phẩm Gợi ý Mua kèm (B)": "Google Unisex Eco Tee Black",
+      "Độ phổ biến (Support)": "48.8%",
+      "Xác suất mua kèm (Confidence)": "85.0%",
+      "Hệ số Tương quan (Lift)": "1.493x",
+      "Ý nghĩa Kinh doanh": "Khách mua [Google Twill Cap] có xác suất 85.0% sẽ mua kèm [Google Unisex Eco Tee Black] (Cao gấp 1.493x so với mua ngẫu nhiên)."
+    },
+    {
+      "Sản phẩm Đã mua (A)": "Google Thermal Bottle 20oz",
+      "Sản phẩm Gợi ý Mua kèm (B)": "Google Twill Cap",
+      "Độ phổ biến (Support)": "27.0%",
+      "Xác suất mua kèm (Confidence)": "77.0%",
+      "Hệ số Tương quan (Lift)": "1.344x",
+      "Ý nghĩa Kinh doanh": "Khách mua [Google Thermal Bottle 20oz] có xác suất 77.0% sẽ mua kèm [Google Twill Cap] (Cao gấp 1.344x so với mua ngẫu nhiên)."
+    }
+  ],
+  "basket_order_count": 560,
+  "errors": []
+}

@@ -1,0 +1,8 @@
+traffic_medium,device_category,country,total_users,total_sessions,total_pageviews,total_purchases,total_revenue_usd
+Organic Search,desktop,United States,9226,10917,53241,225,11879.94
+Direct,desktop,United States,5243,6922,38017,195,15678.71
+Referral,desktop,Canada,2605,3368,13208,78,5556.55
+Paid Search,desktop,United States,1681,2086,8698,59,3066.51
+Display,mobile,United States,750,927,4918,19,1343.52
+Affiliates,desktop,United Kingdom,549,665,2398,18,963.47
+Email,desktop,United States,198,237,1069,4,279.04

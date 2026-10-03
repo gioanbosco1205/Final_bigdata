@@ -1,0 +1,11 @@
+Sản Phẩm A (Mua Trước),Sản Phẩm B (Gợi Ý Mua Kèm),Support (%),Confidence (%),Lift (Độ Nâng)
+Google Sunglasses,Google Water Bottle,20.0,50.0,2.5
+Google Water Bottle,Google Sunglasses,20.0,100.0,2.5
+Google Sunglasses,Google Sun Hat,20.0,50.0,2.5
+Google Sun Hat,Google Sunglasses,20.0,100.0,2.5
+Google Coaster Set,Google Metallic Pen,20.0,33.33,1.667
+Google Coaster Set,Google Hard Cover Journal,60.0,100.0,1.667
+Google Metallic Pen,Google Hard Cover Journal,20.0,100.0,1.667
+Google Metallic Pen,Google Coaster Set,20.0,100.0,1.667
+Google Hard Cover Journal,Google Metallic Pen,20.0,33.33,1.667
+Google Hard Cover Journal,Google Coaster Set,60.0,100.0,1.667
