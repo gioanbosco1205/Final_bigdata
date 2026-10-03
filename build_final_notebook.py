@@ -89,7 +89,29 @@ CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 bq_client = None
 
-# 1. Xác thực Google Cloud & Khởi tạo BigQuery Client
+# 1. Tự động đồng bộ bộ dữ liệu chuẩn trên Google Colab nếu chưa có thư mục data/
+def ensure_dataset_ready():
+    LOCAL_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    
+    files = ["eda_overview.csv", "funnel_analysis.csv", "rfm_features.csv", "market_basket.csv"]
+    missing = [f for f in files if not (LOCAL_DATA_DIR / f).exists()]
+    if missing:
+        print(f"📥 Đang tự động nạp {len(missing)} tập dữ liệu chuẩn GA4 cho môi trường Colab...")
+        try:
+            import urllib.request
+            base_url = "https://raw.githubusercontent.com/gioanbosco1205/Final_bigdata/main/data"
+            for f in missing:
+                url = f"{base_url}/{f}"
+                urllib.request.urlretrieve(url, LOCAL_DATA_DIR / f)
+                print(f"  ✓ Đã nạp thành công: {f}")
+        except Exception as e:
+            import os
+            os.system("git clone -q https://github.com/gioanbosco1205/Final_bigdata.git temp_repo && cp -r temp_repo/data/* data/ && rm -rf temp_repo")
+
+ensure_dataset_ready()
+
+# 2. Xác thực Google Cloud & Khởi tạo BigQuery Client
 try:
     from google.colab import auth
     print("👉 Đang chạy trên Google Colab: Mở cửa sổ xác thực tài khoản Google...")
@@ -140,6 +162,11 @@ def query_or_load(query_sql: str, filename: str) -> pd.DataFrame:
         print(f"⚡ Đang nạp tập dữ liệu [{filename}] từ file: {csv_file.name}")
         return pd.read_csv(csv_file)
         
+    # 3. Tự động đồng bộ nếu vẫn chưa có
+    ensure_dataset_ready()
+    if csv_file.exists():
+        return pd.read_csv(csv_file)
+
     raise FileNotFoundError(f"Không tìm thấy dữ liệu cho {filename}")
 
 print("✓ Bộ điều khiển truy vấn BigQuery đã sẵn sàng!")
