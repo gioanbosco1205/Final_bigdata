@@ -1,0 +1,27 @@
+antecedents_str,consequents_str,antecedent_support,consequent_support,support,confidence,lift
+Android Classic Tee,Google Sticker Sheet,0.1458,0.1458,0.1458,1.0,6.857
+Google Sticker Sheet,Android Classic Tee,0.1458,0.1458,0.1458,1.0,6.857
+Google Thermal Bottle,Google Large Canvas Tote,0.1125,0.1833,0.1125,1.0,5.455
+Google Large Canvas Tote,Google Thermal Bottle,0.1833,0.1125,0.1125,0.6136,5.455
+Google Zip Hoodie,Google Charcoal Tee,0.1083,0.2042,0.1083,1.0,4.898
+Google Charcoal Tee,Google Zip Hoodie,0.2042,0.1083,0.1083,0.5306,4.898
+Google Sunglasses,YouTube Twill Cap,0.2271,0.2271,0.2271,1.0,4.404
+YouTube Twill Cap,Google Sunglasses,0.2271,0.2271,0.2271,1.0,4.404
+Google Large Canvas Tote,Google 22 oz Water Bottle,0.1833,0.2958,0.1833,1.0,3.38
+Google Thermal Bottle,Google 22 oz Water Bottle,0.1125,0.2958,0.1125,1.0,3.38
+Google 22 oz Water Bottle,Google Large Canvas Tote,0.2958,0.1833,0.1833,0.6197,3.38
+Google 22 oz Water Bottle,Google Thermal Bottle,0.2958,0.1125,0.1125,0.3803,3.38
+Android Classic Tee,Google Charcoal Tee,0.1458,0.2042,0.0958,0.6571,3.219
+Google Sticker Sheet,Google Charcoal Tee,0.1458,0.2042,0.0958,0.6571,3.219
+Google Charcoal Tee,Android Classic Tee,0.2042,0.1458,0.0958,0.4694,3.219
+Google Charcoal Tee,Google Sticker Sheet,0.2042,0.1458,0.0958,0.4694,3.219
+Google Coaster Set,Google Hard Cover Journal,0.3354,0.3354,0.3354,1.0,2.981
+Google Hard Cover Journal,Google Coaster Set,0.3354,0.3354,0.3354,1.0,2.981
+Google Metallic Pen Set,Google Coaster Set,0.1896,0.3354,0.1896,1.0,2.981
+Google Metallic Pen Set,Google Hard Cover Journal,0.1896,0.3354,0.1896,1.0,2.981
+Google Coaster Set,Google Metallic Pen Set,0.3354,0.1896,0.1896,0.5652,2.981
+Google Hard Cover Journal,Google Metallic Pen Set,0.3354,0.1896,0.1896,0.5652,2.981
+Google Sunglasses,Google 22 oz Water Bottle,0.2271,0.2958,0.1125,0.4954,1.675
+YouTube Twill Cap,Google 22 oz Water Bottle,0.2271,0.2958,0.1125,0.4954,1.675
+Google 22 oz Water Bottle,Google Sunglasses,0.2958,0.2271,0.1125,0.3803,1.675
+Google 22 oz Water Bottle,YouTube Twill Cap,0.2958,0.2271,0.1125,0.3803,1.675

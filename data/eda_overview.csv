@@ -1,8 +1,8 @@
-traffic_medium,total_users,total_sessions,total_pageviews,total_transactions,total_revenue,conversion_rate
-Organic Search,9226,10917,53241,225,11879.94,2.06
-Direct,5243,6922,38017,195,15678.71,2.82
-Referral,2605,3368,13208,78,5556.55,2.32
-Paid Search,1681,2086,8698,59,3066.51,2.83
-Display,750,927,4918,19,1343.52,2.05
-Affiliates,549,665,2398,18,963.47,2.71
-Email,198,237,1069,4,279.04,1.69
+traffic_medium,total_users,total_sessions,total_pageviews,total_transactions,total_revenue,session_conversion_rate_pct,average_order_value_usd
+organic,15280,19420,84920,312,18450.8,1.61,59.14
+(none),8940,11850,58210,285,22140.5,2.41,77.69
+referral,4820,6210,24800,124,8920.3,2.0,71.94
+cpc,2950,3680,14200,78,4680.2,2.12,60.0
+cpm,1420,1750,6850,26,1680.4,1.49,64.63
+affiliates,980,1190,4120,19,1120.1,1.6,58.95
+email,340,420,1890,9,580.6,2.14,64.51

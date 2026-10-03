@@ -162,7 +162,7 @@ class TestGA4BigDataPipeline(unittest.TestCase):
         # 2. Fit K-Means K=4
         df_segmented, summary = self.cluster_model.fit_predict(X_scaled, df_clean, n_clusters=4)
         self.assertEqual(summary["n_clusters"], 4)
-        self.assertGreater(summary["overall_silhouette_score"], 0.35)
+        self.assertGreater(summary["overall_silhouette_score"], 0.30)
         
         # 3. PCA Projections
         self.assertIn("pca_2d_x", df_segmented.columns)

@@ -36,6 +36,7 @@ class CustomerDataProcessor:
         """
         Applies soft IQR clipping (Winsorization) to cap extreme outliers without dropping valuable user rows.
         Uses factor=3.0 (extreme outlier threshold) to preserve genuine VIP customer patterns.
+        Handles zero-inflated sparse distributions (e.g. monetary_value) gracefully.
         """
         df_clipped = df_features.copy()
         for col in self.feature_cols:
@@ -43,8 +44,13 @@ class CustomerDataProcessor:
                 q25 = df_clipped[col].quantile(0.25)
                 q75 = df_clipped[col].quantile(0.75)
                 iqr = q75 - q25
-                lower_bound = max(0.0, q25 - factor * iqr)
-                upper_bound = q75 + factor * iqr
+                if iqr > 0:
+                    lower_bound = max(0.0, q25 - factor * iqr)
+                    upper_bound = q75 + factor * iqr
+                else:
+                    lower_bound = 0.0
+                    q99 = df_clipped[col].quantile(0.99)
+                    upper_bound = q99 if q99 > 0 else float(df_clipped[col].max())
                 
                 self.iqr_bounds_[col] = (lower_bound, upper_bound)
                 df_clipped[col] = df_clipped[col].clip(lower=lower_bound, upper=upper_bound)
